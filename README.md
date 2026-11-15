@@ -16,7 +16,13 @@ The complete saved Additional CSS was read back and matched the original plus th
 
 WordPress option `pw_portal_ui_css_backup_v100` contains the pre-refresh Additional CSS (autoload disabled). Restore its `content` to CSS post 376 to revert. This is a CSS backup only.
 
-The private WordPress release register and private history page record this release. They remain outside the public repository. The source branch and tags here are local and have not been pushed to GitHub.
+The private WordPress release register and private history page record this release. They remain outside the public repository. Public development files use the `feat/portal-mobile-ui` branch and the `v1.1.0-dev.1` and `v1.1.0` tags. This repository contains the presentation layer, not the complete WordPress application or database.
+
+See [versioning](docs/versioning.md) for future release rules and [the release template](templates/release.json) for recording a module or feature change.
+
+## Review artifacts
+
+The [desktop screenshot](preview/screenshots/desktop.png) and [phone screenshot](preview/screenshots/mobile.png) use synthetic data with the native Factory markup. They do not show the signed-in live portal. The [validation report](validation/native-checks.json) records the checked viewport sizes and scope.
 
 ## Original design concept
 

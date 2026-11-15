@@ -1,0 +1,27 @@
+{
+  "version": "1.2.0-dev.1",
+  "date": "YYYY-MM-DD",
+  "status": "development",
+  "summary": "Describe the module, feature or fix.",
+  "changes": [],
+  "modules": [
+    {
+      "id": "unique-module-id",
+      "name": "Module name",
+      "component": "Owning component",
+      "component_version": "Actual component version",
+      "change_type": "added"
+    }
+  ],
+  "validation": [],
+  "limitations": [],
+  "rollback": {
+    "artifact": null,
+    "notes": "Record the verified rollback reference privately before deployment. Do not publish private backups or access URLs."
+  },
+  "source": {
+    "commit": null,
+    "tag": null,
+    "pull_request": null
+  }
+}
