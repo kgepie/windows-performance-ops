@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2 — 2026-11-15
+
+Applied the Operations form-alignment CSS correction through Additional CSS: search-field borders and text weight, label spacing, consistent button line height, fixed-size checkboxes and aligned stock filters. Checkbox labels retain a touch area of at least 44px and reflow on phones. Saved the v1.1.1 CSS rollback copy.
+
 ## 1.1.1 — 2026-11-15
 
 Corrected the oversized global header caused by competing QR Ordering header styles. Added a scoped, screen-only header stylesheet with explicit desktop/tablet/phone grids, a smaller brand block, aligned company/account controls and consistent touch targets. The original logo and all existing controls are retained.

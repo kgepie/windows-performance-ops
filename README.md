@@ -1,10 +1,12 @@
 # Portal presentation layer
 
-Current release: **1.1.1**, applied to the development portal on 15 November 2026.
+Current release: **1.1.2**, applied to the development portal on 15 November 2026.
 
 `assets/portal-mobile.css` is a screen-only CSS overlay for the native Operations app. It is appended to the existing active WordPress Additional CSS post (376) between labelled version markers. Prior styles and business logic are retained. No theme or plugin files were edited.
 
 `assets/portal-header.css` loads after that overlay. Version 1.1.1 gives the global header an explicit grid so the QR Ordering plugin's existing padding and stacking rules cannot create an oversized header. The desktop logo and account controls share a row; tablet and phone layouts adapt without fixed heights. Keep the two stylesheet files in that order.
+
+`assets/portal-forms.css` follows both stylesheets. Version 1.1.2 corrects the Operations search field, label spacing, borders and checkbox alignment, including stock filters and dialogs. Its catalogue rules are also available for the standalone QR manager, which requires an asset-loading extension because it does not call the theme's head/footer hooks.
 
 The overlay improves type, touch targets, forms, navigation, job headings, cards, document links, responsive Factory layouts and the external phone toolbar. Focus, hover and reduced-motion rules are scoped to the app. Print styling remains supplied by the existing app.
 
@@ -21,6 +23,8 @@ The header correction additionally passed 32 local viewport/role combinations fr
 WordPress option `pw_portal_ui_css_backup_v100` contains the pre-refresh Additional CSS (autoload disabled). Restore its `content` to CSS post 376 to revert. This is a CSS backup only.
 
 For the header correction alone, `pw_portal_ui_css_backup_v110` contains the CSS immediately before v1.1.1. Restore its `content` to CSS post 376 to retain the v1.1.0 design while reverting the header patch.
+
+`pw_portal_ui_css_backup_v111` contains the CSS before the v1.1.2 form correction.
 
 The private WordPress release register and private history page record this release. They remain outside the public repository. Public development files use the `feat/portal-mobile-ui` branch and version tags, including `v1.1.1`. This repository contains the presentation layer, not the complete WordPress application or database.
 
