@@ -1,6 +1,21 @@
 # Portal presentation layer
 
-Current release: **1.1.2**, applied to the development portal on 15 November 2026.
+Source/package release: **1.2.0**, ready for installation.
+
+The applied portal version is **1.1.2** (Operations form alignment). The QR manager's new interactive table and form styles require activating the [prepared extension](packages/README.md). They are not yet installed on the portal.
+
+## Catalogue browser and responsive forms
+
+The custom **Performance Windows Portal UI** extension loads `assets/portal-catalog.js` and `assets/portal-forms.css` on the standalone QR manager. It also supports the native WordPress QR admin screen and loads the shared Operations form styles for signed-in users.
+
+- Parts: multi-term search, supplier/status/unit filters, natural column sorting, 10/25/50-row pages, bounded scrolling and labelled phone cards.
+- Suppliers: independent search, sorting and pagination.
+- Label printing: original checkboxes, names, values, nonces, individual QR/Edit links and submit handlers are retained. Checked parts persist across sorting, filters and pages. The existing all-enabled behaviour when none are selected is stated beside the selection controls.
+- The browser uses only authorized DOM rows, with no network calls, local storage or catalogue writes. Installation adds no records, migrations, approvals or role changes.
+
+Install through **Plugins → Add New → Upload Plugin** using [pw-portal-ui-1.2.0.zip](packages/pw-portal-ui-1.2.0.zip), then activate the extension. MCP cannot upload custom plugin ZIPs through its WordPress.org-only installer. See [module instructions](module-readme.txt) and the package checksum. Deactivation removes the extension's asset hooks without deleting data.
+
+## Existing presentation layer
 
 `assets/portal-mobile.css` is a screen-only CSS overlay for the native Operations app. It is appended to the existing active WordPress Additional CSS post (376) between labelled version markers. Prior styles and business logic are retained. No theme or plugin files were edited.
 
@@ -15,6 +30,8 @@ The overlay improves type, touch targets, forms, navigation, job headings, cards
 Local browser checks used native Factory rendering and modal code with synthetic data at 320, 390, 768, 844, 1024, 1440 and 1920px. Checks passed for page overflow, edit-dialog opening/fit/closing and print-media isolation. Native source copies and synthetic test fixtures are kept outside this public repository. Source reads can redact sensitive patterns; only unredacted rendering sections were used.
 
 The complete saved Additional CSS was read back and matched the original plus the overlay exactly. The active theme's CSS-post association and the workspace's call to `wp_head()` were verified. A signed-in live browser visual test and end-to-end business-workflow tests were not available in this session.
+
+Six browser regression tests cover the 120-item synthetic catalogue, combined filters, empty results, natural sorting, page limits, selection/FormData preservation, focus retention, phone/table containment and checkbox alignment. Viewport checks cover 320–1920px. Additional local checks included the native manager and Operations CSS at five widths. Run `python3 -m pip install -r requirements-dev.txt`, `python3 -m playwright install chromium`, then `python3 -m unittest discover -s tests -v`. PHP syntax was parsed locally; the PR workflow additionally runs native PHP lint and JavaScript syntax checks.
 
 The header correction additionally passed 32 local viewport/role combinations from 320–1920px, including the QR plugin's inline header styles and the 1040px/1100px breakpoints. Checks cover horizontal overflow, header containment, 44px touch controls, and side-by-side desktop alignment. Desktop header height measured about 109px. The fixture uses synthetic controls and a placeholder logo with the native logo's aspect ratio; see [header validation](validation/header-checks.json).
 

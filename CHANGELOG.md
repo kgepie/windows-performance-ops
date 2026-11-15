@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 — prepared for installation
+
+Added the custom Portal UI extension for the standalone QR manager: catalogue search, supplier/status/unit filters, natural sorting, page-size choices, bounded tables and mobile cards. Supplier browsing is independent. Existing label selections survive pages and filters; native print/edit actions and nonces are preserved. The extension's manager forms share the aligned inputs, checkboxes and buttons.
+
+Prepared an installable ZIP with stable plugin folder `pw-portal-ui`. Six browser regression tests pass using 120 synthetic items; additional responsive checks include native manager/Operations styles. The extension is not installed yet: WordPress Upload Plugin is required because MCP only installs WordPress.org slugs. The applied portal version remains 1.1.2 until activation is verified.
+
 ## 1.1.2 — 2026-11-15
 
 Applied the Operations form-alignment CSS correction through Additional CSS: search-field borders and text weight, label spacing, consistent button line height, fixed-size checkboxes and aligned stock filters. Checkbox labels retain a touch area of at least 44px and reflow on phones. Saved the v1.1.1 CSS rollback copy.
