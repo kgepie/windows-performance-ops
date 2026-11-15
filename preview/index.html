@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Portal mobile UI — design preview</title>
+<link rel="stylesheet" href="../assets/portal-mobile.css">
+<style>
+body{margin:0;background:#f1f5f9;padding-bottom:120px}.preview-note{margin:0;padding:8px 16px;color:#d4e2ed;background:#102d46;text-align:center;font:12px/1.5 "Segoe UI",sans-serif}.pw-pwa-tools{box-sizing:border-box;position:fixed;bottom:max(12px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);width:calc(100% - 24px);max-width:580px;z-index:45;background:#fff;border:1px solid #d5e2eb;border-radius:16px;padding:12px 16px;display:flex;gap:12px;align-items:center;font:14px/1.4 "Segoe UI",sans-serif;color:#102d46}.pw-pwa-tools strong{display:block;font-size:14px}.pw-pwa-tools small{display:block;color:#526779;font-size:12px}.pw-pwa-actions{display:flex;gap:8px;margin-left:auto}.pw-pwa-actions button{box-sizing:border-box;min-height:44px;border:1px solid #086fc0;border-radius:9px;padding:10px 14px;font:600 14px/1.4 "Segoe UI",sans-serif;color:#086fc0;background:white;cursor:pointer}.pw-pwa-actions button:last-child{background:#086fc0;color:white}#pwpc-operations .pwui-preview-dialog{padding:24px;border:1px solid #dbe5ee;box-shadow:0 20px 80px #102d4655}#pwpc-operations .pwui-preview-dialog::backdrop{background:#102d4666}#pwpc-operations .pwui-preview-dialog label{margin-top:12px}
+</style>
+</head>
+<body>
+<p class="preview-note">Design preview · Synthetic example · No connection to live jobs</p>
+<div id="pwpc-operations" class="pwpc-ops">
+  <header class="pwui-header">
+    <div class="pwui-brand"><span class="pwui-brand-mark" aria-hidden="true">+</span><div><strong>PERFORMANCE WINDOWS</strong><small>Private staff workspace</small></div></div>
+    <div class="pwui-account"><select aria-label="Company"><option>Performance Windows &amp; Doors</option><option>Parliament Construction</option></select><span class="pwui-badge">Manager</span><a href="#help">Help &amp; guides</a></div>
+  </header>
+  <nav class="pwui-nav" aria-label="Workspace"><button type="button">Start</button><button type="button">Stock replenishment</button><button type="button" aria-current="page">Factory workflow</button><button type="button">Resources</button><button type="button">Simple QR Ordering</button><button type="button">Order approvals</button></nav>
+  <main class="pwui-shell">
+    <aside class="pwui-notice"><span aria-hidden="true">ⓘ</span><div><strong>Factory training workspace</strong>Responsibility changes after acceptance. Confirm job instructions before starting work.</div></aside>
+    <div class="pwui-toolbar"><h2>Factory workflow</h2><button class="pwui-primary" type="button" data-preview-action>＋ New factory job</button></div>
+    <div class="pwui-tabs" role="tablist" aria-label="Factory views"><button role="tab" aria-selected="true" type="button">Job register</button><button role="tab" aria-selected="false" type="button">Stage queues</button><button role="tab" aria-selected="false" type="button">Schedule</button><button role="tab" aria-selected="false" type="button">Incoming handovers</button><button role="tab" aria-selected="false" type="button">Archived jobs</button></div>
+    <section class="pwui-job-hero" aria-labelledby="job-title">
+      <div class="pwui-job-meta"><span class="pwui-eyebrow">Training job · 900177</span><span class="pwui-badge">In production</span></div>
+      <h1 id="job-title">Workshop demonstration<br>Frames &amp; screens</h1>
+      <p>Delivery <strong>not scheduled</strong> · Hours pending confirmation</p>
+      <div class="pwui-actions"><button type="button" data-edit-job>Edit job</button><button type="button" data-preview-action>Move dates</button><button type="button" data-preview-action>Archive job</button></div>
+    </section>
+    <section class="pwui-card" style="margin-top:18px"><h3>Job instructions</h3><p style="margin-bottom:0">Wait for release and confirm materials before starting. Frames go through cutting, then machining. Use the approved job documents at each bench.</p></section>
+    <div class="pwui-choice" aria-label="Job part"><button type="button" aria-pressed="true" data-part="Frames">Frames<small>Materials ordered</small></button><button type="button" aria-pressed="false" data-part="Screens">Screens<small>Materials ordered</small></button></div>
+    <div class="pwui-grid">
+      <section class="pwui-card"><p class="pwui-eyebrow" id="part-label">Frames</p><h2>Materials ordered</h2><span class="pwui-badge">Ready to start</span><p>Materials desk · Assigned workshop team</p><div class="pwui-actions"><button type="button" data-preview-action>Start work</button><button type="button" class="pwui-primary" data-preview-action>Complete &amp; offer handover</button><button type="button" data-preview-action>Report hold-up</button></div><p>Receiving staff must accept the handover before responsibility moves.</p><button type="button" data-preview-action>Offer responsibility</button></section>
+      <section class="pwui-card"><p class="pwui-eyebrow">Job documents</p><h2>Everything for this bench.</h2><p>Use the current approved drawings and documents.</p><ul class="pwui-docs"><li><a href="#preview-docs">Open job Dropbox folder</a></li><li><a href="#preview-docs">Shop drawings · after release</a></li><li><a href="#preview-docs">Supplier delivery dockets</a></li><li><a href="#preview-docs">Screen order forms</a></li><li><a href="#preview-docs">Safety / SWMS reference</a></li><li><a href="#preview-docs">Receiving photos</a></li></ul></section>
+    </div>
+    <section class="pwui-card"><h3><span id="workflow-part">Frames</span> workflow</h3><p>Follow the selected stages in order.</p><ol class="pwui-steps"><li aria-current="step">Materials ordered</li><li>Cut</li><li>Punched</li><li>Ready for delivery</li><li>Delivered</li></ol></section>
+    <section class="pwui-card" style="margin-top:18px"><h3>Job paperwork &amp; QR labels</h3><p>Print a whole-job label or a label for each part. Staff sign-in still applies.</p><button type="button" class="pwui-primary" data-preview-action>QR labels / Print</button></section>
+    <footer class="pwui-footer" id="help"><span>PW + Parliament · Team workspace</span><span>Online access required</span></footer>
+  </main>
+  <dialog id="edit-dialog" class="pwui-preview-dialog" aria-labelledby="edit-title"><form method="dialog"><h2 id="edit-title">Edit training job</h2><p>This is a design preview. No live records will change.</p><label for="example-title">Job title</label><input id="example-title" value="Workshop demonstration"><label for="example-notes">Instructions</label><textarea id="example-notes">Confirm materials before starting.</textarea><div class="pwui-actions"><button type="submit" class="pwui-primary">Close preview</button></div></form></dialog>
+  <dialog id="action-dialog" class="pwui-preview-dialog" aria-labelledby="action-title"><h2 id="action-title">Design preview</h2><p>Live actions will continue to use the portal’s existing workflows. This preview changes no records.</p><button type="button" id="close-action">Got it</button></dialog>
+</div>
+<aside class="pw-pwa-tools" aria-label="Phone app shortcuts"><div><strong>PW Portal</strong><small>Online · Ready to use</small></div><div class="pw-pwa-actions"><button type="button" data-preview-action>QR scanner</button><button type="button" data-preview-action>Install portal</button></div></aside>
+<script>
+const editDialog=document.querySelector('#edit-dialog'),actionDialog=document.querySelector('#action-dialog');
+document.querySelector('[data-edit-job]').addEventListener('click',()=>editDialog.showModal());
+document.querySelectorAll('[data-preview-action]').forEach(button=>button.addEventListener('click',()=>actionDialog.showModal()));
+document.querySelector('#close-action').addEventListener('click',()=>actionDialog.close());
+document.querySelectorAll('[data-part]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-part]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));document.querySelector('#part-label').textContent=button.dataset.part;document.querySelector('#workflow-part').textContent=button.dataset.part;}));
+document.querySelectorAll('.pwui-docs a').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();actionDialog.showModal();}));
+</script>
+</body>
+</html>
