@@ -1,8 +1,8 @@
 # Portal presentation layer
 
-Source/package release: **1.2.0**, ready for installation.
+Current applied release: **1.2.0**.
 
-The applied portal version is **1.1.2** (Operations form alignment). The QR manager's new interactive table and form styles require activating the [prepared extension](packages/README.md). They are not yet installed on the portal.
+The **Performance Windows Portal UI** extension is installed and active on the development portal. Its PHP bootstrap matches the published source, and the CSS/JavaScript hashes from its authenticated status endpoint match the tested package. The earlier v1.1.2 Operations form correction remains applied.
 
 ## Catalogue browser and responsive forms
 
@@ -13,7 +13,7 @@ The custom **Performance Windows Portal UI** extension loads `assets/portal-cata
 - Label printing: original checkboxes, names, values, nonces, individual QR/Edit links and submit handlers are retained. Checked parts persist across sorting, filters and pages. The existing all-enabled behaviour when none are selected is stated beside the selection controls.
 - The browser uses only authorized DOM rows, with no network calls, local storage or catalogue writes. Installation adds no records, migrations, approvals or role changes.
 
-Install through **Plugins → Add New → Upload Plugin** using [pw-portal-ui-1.2.0.zip](packages/pw-portal-ui-1.2.0.zip), then activate the extension. MCP cannot upload custom plugin ZIPs through its WordPress.org-only installer. See [module instructions](module-readme.txt) and the package checksum. Deactivation removes the extension's asset hooks without deleting data.
+For a new installation, use **Plugins → Add New → Upload Plugin** with [pw-portal-ui-1.2.0.zip](packages/pw-portal-ui-1.2.0.zip), then activate the extension. See [module instructions](module-readme.txt) and the package checksum. Deactivation removes the extension's asset hooks without deleting data.
 
 ## Existing presentation layer
 
@@ -43,7 +43,7 @@ For the header correction alone, `pw_portal_ui_css_backup_v110` contains the CSS
 
 `pw_portal_ui_css_backup_v111` contains the CSS before the v1.1.2 form correction.
 
-The private WordPress release register and private history page record this release. They remain outside the public repository. Public development files use the `feat/portal-mobile-ui` branch and version tags, including `v1.1.1`. This repository contains the presentation layer, not the complete WordPress application or database.
+The private WordPress release register and private history page record this release. They remain outside the public repository. Public development files use the `feat/portal-mobile-ui` branch and version tags, including `v1.2.0`. This repository contains the presentation layer, not the complete WordPress application or database.
 
 See [versioning](docs/versioning.md) for future release rules and [the release template](templates/release.json) for recording a module or feature change.
 
