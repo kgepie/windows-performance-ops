@@ -1,0 +1,65 @@
+{
+  "scope": "Synthetic fixtures with native manager/operations CSS; no live account data",
+  "checks": [
+    {
+      "surface": "catalog",
+      "width": 320,
+      "pageOverflow": false,
+      "checkboxSize": 20
+    },
+    {
+      "surface": "catalog",
+      "width": 390,
+      "pageOverflow": false,
+      "checkboxSize": 20
+    },
+    {
+      "surface": "catalog",
+      "width": 768,
+      "pageOverflow": false,
+      "checkboxSize": 20
+    },
+    {
+      "surface": "catalog",
+      "width": 1024,
+      "pageOverflow": false,
+      "checkboxSize": 20
+    },
+    {
+      "surface": "catalog",
+      "width": 1440,
+      "pageOverflow": false,
+      "checkboxSize": 20
+    },
+    {
+      "surface": "forms",
+      "width": 320,
+      "pageOverflow": false,
+      "checkboxSize": 20
+    },
+    {
+      "surface": "forms",
+      "width": 390,
+      "pageOverflow": false,
+      "checkboxSize": 20
+    },
+    {
+      "surface": "forms",
+      "width": 768,
+      "pageOverflow": false,
+      "checkboxSize": 20
+    },
+    {
+      "surface": "forms",
+      "width": 1024,
+      "pageOverflow": false,
+      "checkboxSize": 20
+    },
+    {
+      "surface": "forms",
+      "width": 1440,
+      "pageOverflow": false,
+      "checkboxSize": 20
+    }
+  ]
+}

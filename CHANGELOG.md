@@ -1,0 +1,33 @@
+# Changelog
+
+## 1.2.0 — 2026-11-15
+
+Added the custom Portal UI extension for the standalone QR manager: catalogue search, supplier/status/unit filters, natural sorting, page-size choices, bounded tables and mobile cards. Supplier browsing is independent. Existing label selections survive pages and filters; native print/edit actions and nonces are preserved. The extension's manager forms share the aligned inputs, checkboxes and buttons.
+
+Installed and activated the extension from the versioned ZIP with stable plugin folder `pw-portal-ui`. Verified the active 1.2.0 version, exact CSS/JavaScript hashes and installed PHP bootstrap against the tested package. Six browser regression tests pass using 120 synthetic items; additional responsive checks include native manager/Operations styles. Signed-in live visual and end-to-end business-write tests were not performed.
+
+## 1.1.2 — 2026-11-15
+
+Applied the Operations form-alignment CSS correction through Additional CSS: search-field borders and text weight, label spacing, consistent button line height, fixed-size checkboxes and aligned stock filters. Checkbox labels retain a touch area of at least 44px and reflow on phones. Saved the v1.1.1 CSS rollback copy.
+
+## 1.1.1 — 2026-11-15
+
+Corrected the oversized global header caused by competing QR Ordering header styles. Added a scoped, screen-only header stylesheet with explicit desktop/tablet/phone grids, a smaller brand block, aligned company/account controls and consistent touch targets. The original logo and all existing controls are retained.
+
+Validated 32 local viewport/role combinations including the competing inline styles. Saved and verified a CSS rollback copy, and matched the applied patch against the full saved Additional CSS. Signed-in live visual testing remains unavailable.
+
+## 1.1.0 — 2026-11-15
+
+Applied mobile-first presentation overlay to the existing development portal through Additional CSS.
+
+- Increased text and touch-control sizes; improved inputs, navigation and status readability.
+- Added navy job headings, clearer cards and document links; stacked Factory details on smaller devices.
+- Adjusted phone install/QR toolbar spacing and safe-area padding.
+- Added scoped hover/focus feedback and reduced-motion support; print styles remain native.
+- Preserved original CSS, verified the saved overlay, and recorded the release privately with a CSS rollback reference.
+
+Checks: native rendering fixture at seven viewport widths, dialog fit and print-media isolation. No signed-in live visual or end-to-end workflow test was performed. Business logic and custom-plugin versions remain independent.
+
+## 1.1.0-dev.1 — prepared concept
+
+Original mobile-first visual prototype, saved under `preview/`.

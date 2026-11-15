@@ -1,0 +1,597 @@
+{
+  "surface": "Local native header fixture with Operations styles and QR hub inline styles; synthetic account and placeholder logo",
+  "checks": [
+    {
+      "width": 320,
+      "scroll": 320,
+      "height": 238.390625,
+      "brandBottom": 173.203125,
+      "controlsTop": 191.203125,
+      "brandRight": 289,
+      "controlsLeft": 31,
+      "headerBottom": 328.390625,
+      "controlsBottom": 309.390625,
+      "controlsWidth": 258,
+      "targets": [
+        44,
+        44,
+        44,
+        46.59375
+      ],
+      "owner": true
+    },
+    {
+      "width": 320,
+      "scroll": 320,
+      "height": 242.796875,
+      "brandBottom": 173.203125,
+      "controlsTop": 191.203125,
+      "brandRight": 289,
+      "controlsLeft": 31,
+      "headerBottom": 332.796875,
+      "controlsBottom": 313.796875,
+      "controlsWidth": 258,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 375,
+      "scroll": 375,
+      "height": 239.84375,
+      "brandBottom": 174.65625,
+      "controlsTop": 192.65625,
+      "brandRight": 344,
+      "controlsLeft": 31,
+      "headerBottom": 329.84375,
+      "controlsBottom": 310.84375,
+      "controlsWidth": 313,
+      "targets": [
+        44,
+        44,
+        44,
+        46.59375
+      ],
+      "owner": true
+    },
+    {
+      "width": 375,
+      "scroll": 375,
+      "height": 237.25,
+      "brandBottom": 174.65625,
+      "controlsTop": 192.65625,
+      "brandRight": 344,
+      "controlsLeft": 31,
+      "headerBottom": 327.25,
+      "controlsBottom": 308.25,
+      "controlsWidth": 313,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "height": 239.84375,
+      "brandBottom": 174.65625,
+      "controlsTop": 192.65625,
+      "brandRight": 359,
+      "controlsLeft": 31,
+      "headerBottom": 329.84375,
+      "controlsBottom": 310.84375,
+      "controlsWidth": 328,
+      "targets": [
+        44,
+        44,
+        44,
+        46.59375
+      ],
+      "owner": true
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "height": 237.25,
+      "brandBottom": 174.65625,
+      "controlsTop": 192.65625,
+      "brandRight": 359,
+      "controlsLeft": 31,
+      "headerBottom": 327.25,
+      "controlsBottom": 308.25,
+      "controlsWidth": 328,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 600,
+      "scroll": 600,
+      "height": 237.25,
+      "brandBottom": 156.65625,
+      "controlsTop": 174.65625,
+      "brandRight": 569,
+      "controlsLeft": 31,
+      "headerBottom": 309.25,
+      "controlsBottom": 290.25,
+      "controlsWidth": 538,
+      "targets": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "owner": true
+    },
+    {
+      "width": 600,
+      "scroll": 600,
+      "height": 237.25,
+      "brandBottom": 156.65625,
+      "controlsTop": 174.65625,
+      "brandRight": 569,
+      "controlsLeft": 31,
+      "headerBottom": 309.25,
+      "controlsBottom": 290.25,
+      "controlsWidth": 538,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 767,
+      "scroll": 767,
+      "height": 237.25,
+      "brandBottom": 156.65625,
+      "controlsTop": 174.65625,
+      "brandRight": 736,
+      "controlsLeft": 31,
+      "headerBottom": 309.25,
+      "controlsBottom": 290.25,
+      "controlsWidth": 705,
+      "targets": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "owner": true
+    },
+    {
+      "width": 767,
+      "scroll": 767,
+      "height": 237.25,
+      "brandBottom": 156.65625,
+      "controlsTop": 174.65625,
+      "brandRight": 736,
+      "controlsLeft": 31,
+      "headerBottom": 309.25,
+      "controlsBottom": 290.25,
+      "controlsWidth": 705,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "height": 171.375,
+      "brandBottom": 201.171875,
+      "controlsTop": 103,
+      "brandRight": 374,
+      "controlsLeft": 394,
+      "headerBottom": 253.375,
+      "controlsBottom": 232.375,
+      "controlsWidth": 321,
+      "targets": [
+        44,
+        44,
+        44,
+        55.78125
+      ],
+      "owner": true
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "height": 159.59375,
+      "brandBottom": 195.28125,
+      "controlsTop": 103,
+      "brandRight": 374,
+      "controlsLeft": 394,
+      "headerBottom": 241.59375,
+      "controlsBottom": 220.59375,
+      "controlsWidth": 321,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 820,
+      "scroll": 820,
+      "height": 171.375,
+      "brandBottom": 201.171875,
+      "controlsTop": 103,
+      "brandRight": 400,
+      "controlsLeft": 420,
+      "headerBottom": 253.375,
+      "controlsBottom": 232.375,
+      "controlsWidth": 347,
+      "targets": [
+        44,
+        44,
+        44,
+        55.78125
+      ],
+      "owner": true
+    },
+    {
+      "width": 820,
+      "scroll": 820,
+      "height": 159.59375,
+      "brandBottom": 195.28125,
+      "controlsTop": 103,
+      "brandRight": 400,
+      "controlsLeft": 420,
+      "headerBottom": 241.59375,
+      "controlsBottom": 220.59375,
+      "controlsWidth": 347,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 1000,
+      "scroll": 1000,
+      "height": 171.375,
+      "brandBottom": 201.171875,
+      "controlsTop": 103,
+      "brandRight": 490,
+      "controlsLeft": 510,
+      "headerBottom": 253.375,
+      "controlsBottom": 232.375,
+      "controlsWidth": 437,
+      "targets": [
+        44,
+        44,
+        44,
+        55.78125
+      ],
+      "owner": true
+    },
+    {
+      "width": 1000,
+      "scroll": 1000,
+      "height": 159.59375,
+      "brandBottom": 195.28125,
+      "controlsTop": 103,
+      "brandRight": 490,
+      "controlsLeft": 510,
+      "headerBottom": 241.59375,
+      "controlsBottom": 220.59375,
+      "controlsWidth": 437,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 1023,
+      "scroll": 1023,
+      "height": 171.375,
+      "brandBottom": 201.171875,
+      "controlsTop": 103,
+      "brandRight": 501.5,
+      "controlsLeft": 521.5,
+      "headerBottom": 253.375,
+      "controlsBottom": 232.375,
+      "controlsWidth": 448.5,
+      "targets": [
+        44,
+        44,
+        44,
+        55.78125
+      ],
+      "owner": true
+    },
+    {
+      "width": 1023,
+      "scroll": 1023,
+      "height": 159.59375,
+      "brandBottom": 195.28125,
+      "controlsTop": 103,
+      "brandRight": 501.5,
+      "controlsLeft": 521.5,
+      "headerBottom": 241.59375,
+      "controlsBottom": 220.59375,
+      "controlsWidth": 448.5,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 1024,
+      "scroll": 1024,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 371.484375,
+      "controlsLeft": 395.484375,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 575.515625,
+      "targets": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "owner": true
+    },
+    {
+      "width": 1024,
+      "scroll": 1024,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 466.0625,
+      "controlsLeft": 490.0625,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 480.9375,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 1040,
+      "scroll": 1040,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 387.484375,
+      "controlsLeft": 411.484375,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 575.515625,
+      "targets": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "owner": true
+    },
+    {
+      "width": 1040,
+      "scroll": 1040,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 482.0625,
+      "controlsLeft": 506.0625,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 480.9375,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 1100,
+      "scroll": 1100,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 447.484375,
+      "controlsLeft": 471.484375,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 575.515625,
+      "targets": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "owner": true
+    },
+    {
+      "width": 1100,
+      "scroll": 1100,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 542.0625,
+      "controlsLeft": 566.0625,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 480.9375,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 1280,
+      "scroll": 1280,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 627.484375,
+      "controlsLeft": 651.484375,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 575.515625,
+      "targets": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "owner": true
+    },
+    {
+      "width": 1280,
+      "scroll": 1280,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 722.0625,
+      "controlsLeft": 746.0625,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 480.9375,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 787.484375,
+      "controlsLeft": 811.484375,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 575.515625,
+      "targets": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "owner": true
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 882.0625,
+      "controlsLeft": 906.0625,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 480.9375,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 1814,
+      "scroll": 1814,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 974.484375,
+      "controlsLeft": 998.484375,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 575.515625,
+      "targets": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "owner": true
+    },
+    {
+      "width": 1814,
+      "scroll": 1814,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 1069.0625,
+      "controlsLeft": 1093.0625,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 480.9375,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    },
+    {
+      "width": 1920,
+      "scroll": 1920,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 1027.484375,
+      "controlsLeft": 1051.484375,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 575.515625,
+      "targets": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "owner": true
+    },
+    {
+      "width": 1920,
+      "scroll": 1920,
+      "height": 108.96875,
+      "brandBottom": 169.96875,
+      "controlsTop": 104.6875,
+      "brandRight": 1122.0625,
+      "controlsLeft": 1146.0625,
+      "headerBottom": 190.96875,
+      "controlsBottom": 168.28125,
+      "controlsWidth": 480.9375,
+      "targets": [
+        44,
+        44,
+        44
+      ],
+      "owner": false
+    }
+  ]
+}
