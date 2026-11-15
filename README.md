@@ -1,8 +1,10 @@
 # Portal presentation layer
 
-Current release: **1.1.0**, applied to the development portal on 15 November 2026.
+Current release: **1.1.1**, applied to the development portal on 15 November 2026.
 
 `assets/portal-mobile.css` is a screen-only CSS overlay for the native Operations app. It is appended to the existing active WordPress Additional CSS post (376) between labelled version markers. Prior styles and business logic are retained. No theme or plugin files were edited.
+
+`assets/portal-header.css` loads after that overlay. Version 1.1.1 gives the global header an explicit grid so the QR Ordering plugin's existing padding and stacking rules cannot create an oversized header. The desktop logo and account controls share a row; tablet and phone layouts adapt without fixed heights. Keep the two stylesheet files in that order.
 
 The overlay improves type, touch targets, forms, navigation, job headings, cards, document links, responsive Factory layouts and the external phone toolbar. Focus, hover and reduced-motion rules are scoped to the app. Print styling remains supplied by the existing app.
 
@@ -12,17 +14,23 @@ Local browser checks used native Factory rendering and modal code with synthetic
 
 The complete saved Additional CSS was read back and matched the original plus the overlay exactly. The active theme's CSS-post association and the workspace's call to `wp_head()` were verified. A signed-in live browser visual test and end-to-end business-workflow tests were not available in this session.
 
+The header correction additionally passed 32 local viewport/role combinations from 320–1920px, including the QR plugin's inline header styles and the 1040px/1100px breakpoints. Checks cover horizontal overflow, header containment, 44px touch controls, and side-by-side desktop alignment. Desktop header height measured about 109px. The fixture uses synthetic controls and a placeholder logo with the native logo's aspect ratio; see [header validation](validation/header-checks.json).
+
 ## Rollback and release tracking
 
 WordPress option `pw_portal_ui_css_backup_v100` contains the pre-refresh Additional CSS (autoload disabled). Restore its `content` to CSS post 376 to revert. This is a CSS backup only.
 
-The private WordPress release register and private history page record this release. They remain outside the public repository. Public development files use the `feat/portal-mobile-ui` branch and the `v1.1.0-dev.1` and `v1.1.0` tags. This repository contains the presentation layer, not the complete WordPress application or database.
+For the header correction alone, `pw_portal_ui_css_backup_v110` contains the CSS immediately before v1.1.1. Restore its `content` to CSS post 376 to retain the v1.1.0 design while reverting the header patch.
+
+The private WordPress release register and private history page record this release. They remain outside the public repository. Public development files use the `feat/portal-mobile-ui` branch and version tags, including `v1.1.1`. This repository contains the presentation layer, not the complete WordPress application or database.
 
 See [versioning](docs/versioning.md) for future release rules and [the release template](templates/release.json) for recording a module or feature change.
 
 ## Review artifacts
 
 The [desktop screenshot](preview/screenshots/desktop.png) and [phone screenshot](preview/screenshots/mobile.png) use synthetic data with the native Factory markup. They do not show the signed-in live portal. The [validation report](validation/native-checks.json) records the checked viewport sizes and scope.
+
+The header correction has separate [desktop](preview/screenshots/header-desktop.png) and [phone](preview/screenshots/header-mobile.png) previews. Open `/preview/header.html` on the local preview server for its standalone layout fixture.
 
 ## Original design concept
 

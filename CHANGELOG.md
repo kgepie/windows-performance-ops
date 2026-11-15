@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1 — 2026-11-15
+
+Corrected the oversized global header caused by competing QR Ordering header styles. Added a scoped, screen-only header stylesheet with explicit desktop/tablet/phone grids, a smaller brand block, aligned company/account controls and consistent touch targets. The original logo and all existing controls are retained.
+
+Validated 32 local viewport/role combinations including the competing inline styles. Saved and verified a CSS rollback copy, and matched the applied patch against the full saved Additional CSS. Signed-in live visual testing remains unavailable.
+
 ## 1.1.0 — 2026-11-15
 
 Applied mobile-first presentation overlay to the existing development portal through Additional CSS.
